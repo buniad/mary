@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Open Sans", sans-serif !important;
+}
+
+.logo {
+    font-size: 45px;
+}
+.logo-alphabet{
+    color: rgb(253, 107, 10);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav  li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button-primary{
+    border: 0px;
+    background-color: rgb(253, 107, 10);
+    color: #ffffffff;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
